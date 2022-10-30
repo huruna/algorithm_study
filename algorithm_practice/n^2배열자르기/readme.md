@@ -9,3 +9,27 @@ row=i/n, col=i%n 이고 row가 col보다 크다면 answer배열에 row+1을, row
 right까지 이를 반복하고 끝나면 answer를 반환한다.
 
 이런식으로 left~right만 추출하여 answer 배열에 저장하니 시간초과는 일어나지 않았다.
+
+```C
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+int* solution(int n, long long left, long long right) {
+    int cnt = right - left + 1;
+    int* answer = (int*)malloc(sizeof(int)*cnt);
+    long long row = 0, col = 0;
+    
+    for(long long int i = left; i <= right; i++) {
+        row = i / n;
+        col = i % n;
+        if(row > col) {
+            answer[i - left] = row + 1;
+        }
+        else {
+            answer[i - left] = col + 1;
+        }
+    }
+    return answer;
+}
+```
