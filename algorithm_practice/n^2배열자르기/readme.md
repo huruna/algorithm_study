@@ -13,7 +13,6 @@ right까지 이를 반복하고 끝나면 answer를 반환한다.
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-
 int* solution(int n, long long left, long long right) {
     int cnt = right - left + 1;
     int* answer = (int*)malloc(sizeof(int)*cnt);
