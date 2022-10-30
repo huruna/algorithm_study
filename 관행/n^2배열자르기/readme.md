@@ -6,5 +6,6 @@
 4행 4열 크기의 배열과 1차원 배열을 만들어서 2번째 애니메이션을 예로 만들었다.
 (row, col)에 들어갈 숫자가 max(row, col)+1이라는 것을 알아냈다
 row=i/n, col=i%n 이고 row가 col보다 크다면 answer배열에 row+1을, row가 col과 같거나 작다면 col+1을 넣는다.
+right까지 이를 반복하고 끝나면 answer를 반환한다.
 
 이런식으로 left~right만 추출하여 answer 배열에 저장하니 시간초과는 일어나지 않았다.
