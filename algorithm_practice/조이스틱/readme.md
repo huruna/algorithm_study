@@ -7,7 +7,7 @@ temp와 name이 같아질 때까지 반복한다.
 그래서 답에 끼워맞추기 위해서 계산을 다시 했는데 JEROEN을 예로 들자면
 첫번째 위치에서 조이스틱을 ↑로 9번 조작하면 J, 
 
-'''C++
+```C++
 #include <string>
 #include <vector>
 
@@ -64,4 +64,4 @@ int solution(string name) {
     }
     return answer;
 }
-                                '''
+```
