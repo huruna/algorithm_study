@@ -1,4 +1,4 @@
-dfs와 bfs중에 어떤걸로 구현할까 고민을 하다가 dfs가 더 간단하게 할 수 있을 것 같아서 bfs로 하였다.
+dfs와 bfs중에 어떤걸로 구현할까 고민을 하다가 dfs가 더 간단하게 할 수 있을 것 같아서 fs로 하였다.
 
 tg와 answer를 전역변수로 선언한다.
 numbers 벡터의 인덱스값(n)과 numbers.size()가 같으면 numbers의 모든 숫자를 사용했다는 뜻이므로
