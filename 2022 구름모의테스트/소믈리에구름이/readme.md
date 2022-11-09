@@ -20,7 +20,6 @@ int main()
    answer = curr_wine - n;  
    
    free(cup);
-   printf("%d", answer);
    return answer;
 }
 ```
