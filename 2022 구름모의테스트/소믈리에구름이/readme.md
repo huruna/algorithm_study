@@ -17,7 +17,8 @@ int main()
       scanf(" %d", &cup[i - 1]);
       curr_wine += cup[i - 1];
    }
-   answer = curr_wine - n;
+   answer = curr_wine - n;  
+   
    free(cup);
    printf("%d", answer);
    return answer;
