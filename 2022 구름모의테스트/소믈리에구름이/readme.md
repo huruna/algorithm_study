@@ -12,8 +12,8 @@ int main()
    int answer = 0;
    int curr_wine = 0;
    int* cup = (int*)malloc(sizeof(int) * 2000000);
+   
    scanf("%d", &n);
-
    for (int i = 1; i <= n; i++) {
       scanf(" %d", &cup[i - 1]);
       curr_wine += cup[i - 1];
