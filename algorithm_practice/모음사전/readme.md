@@ -8,7 +8,7 @@
 
 using namespace std;
 
-string alpha = {'A','E','I','O','U'};
+string alpha = "AEIOU";
 int answer = 0;
 int count = 0;
 
