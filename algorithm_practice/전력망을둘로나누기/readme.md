@@ -21,6 +21,7 @@ int bfs(int to, int now, int count){
 
 int solution(int n, vector<vector<int>> wires) {
     int answer = -1;
+    
     return answer;
 }
 ```
